@@ -1,0 +1,20 @@
+{
+    "name": "rt/kafka-php",
+    "description": "Kafka client for php",
+    "type": "library",
+    "keywords": [
+        "Client",
+        "Kafka"
+    ],
+    "config": {
+        "preferred-install": "dist"
+    },
+    "require": {
+        "amphp/amp": "^2.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kafka\\": "src/"
+        }
+    }
+}
